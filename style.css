@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding-inline-start: 0; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.container {
+    height: 100%;
+    background-image: url(https://images.demandware.net/dw/image/v2/BBBV_PRD/on/demandware.static/-/Library-Sites-BoConceptSharedLibrary/default/dwe8eb1613/images/product-slider/tables-desks/1544039-productslider.jpg?sw=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+.header img {
+    height:20%;
+    width: 20%;
+    border-radius: 25%;
+    padding: 15px;
+}
+.header h1 {
+    color:black;
+    font-size: 40;
+    font-weight: 900;
+}
+.header p {
+    color: blue;
+    font-size: 20px;
+    font-weight: 300;
+}
+.main {
+    background: rgba(255, 230, 7, 0.192);
+    opacity: 1;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main h2 {
+    padding: 20px;
+    color: purple;
+    font-size: 30px;
+    font-weight: 900;
+}
+.main p {
+    color: black;
+    font-size: 22px;
+}
